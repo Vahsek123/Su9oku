@@ -1,8 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
+import testReducer from './features/testSlice';
 
 const makeStore = () => {
   return configureStore({
-    reducer: {},
+    reducer: {
+      test: testReducer,
+    },
   });
 };
 
