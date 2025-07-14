@@ -1,12 +1,24 @@
-## 💭 Description of change
+#### 💭 Description of change
 
-_Provide a description of the changes made_
+_Explain in detail what has changed_
 
-## ⚡ Reason for change
+#### ⚡ Reason for change
 
-_What are the reasons this change is being made_
+_Explain why the change is necessary or desirable_
 
-## ✅ Reminders
+_Provide reference to any issue numbers related to this change_
 
-- [ ] Merge commit title is meaningful in context of the change
-- [ ] Changelog updated
+#### 🧪 Testing performed
+
+_Explain how you tested your change_
+
+_Attach any test writeups, measurements, logs, etc_
+
+---
+
+#### 📋 Review checklist
+
+This section is to be completed by reviewers only.
+
+- [ ] **Merge request title**:  Title clearly explains the change being made (will become squashed commit message)
+- [ ] **CHANGELOG.md updated**: Notable changes to the project (i.e. that affect users) should be logged
