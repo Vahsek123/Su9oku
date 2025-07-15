@@ -23,7 +23,9 @@
     "paths": {
       "@app/*": ["app/*"],
       "@store/*": ["store/*"],
-      "@store": ["store/index.ts"]
+      "@store": ["store/index.ts"],
+      "@components/*": ["components/*"],
+      "@lib/*": ["lib/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
