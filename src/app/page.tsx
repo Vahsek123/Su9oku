@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { counterIncremented, selectCounter } from '@lib/features/testSlice';
-import { useStoreDispatch, useStoreSelector } from '@lib/hooks';
+import { useStoreDispatch, useStoreSelector } from '@store';
+import { counterIncremented, selectCounter } from '@store/features/testSlice';
 
 export default function Home() {
   const dispatch = useStoreDispatch();
