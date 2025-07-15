@@ -1,8 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { counterIncremented, selectCounter } from '@lib/features/testSlice';
-import { useStoreDispatch, useStoreSelector } from '@lib/hooks';
+import { Button, Input } from '@components/ui';
+import { useStoreDispatch, useStoreSelector } from '@store';
+import { counterIncremented, selectCounter } from '@store/features/testSlice';
 
 export default function Home() {
   const dispatch = useStoreDispatch();
@@ -68,6 +69,13 @@ export default function Home() {
           >
             Increment
           </button>
+        </div>
+
+        <div className='flex w-full max-w-sm items-center gap-2'>
+          <Input type='email' placeholder='Email' />
+          <Button type='submit' variant='outline'>
+            Subscribe
+          </Button>
         </div>
       </main>
       <footer className='row-start-3 flex gap-[24px] flex-wrap items-center justify-center'>
