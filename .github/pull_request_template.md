@@ -18,7 +18,5 @@ _Attach any test writeups, measurements, logs, etc_
 
 #### 📋 Review checklist
 
-This section is to be completed by reviewers only.
-
-- [ ] **Merge request title**:  Title clearly explains the change being made (will become squashed commit message)
+- [ ] **Merge request title**: Title clearly explains the change being made (will become squashed commit message)
 - [ ] **CHANGELOG.md updated**: Notable changes to the project (i.e. that affect users) should be logged
